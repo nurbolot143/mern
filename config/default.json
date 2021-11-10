@@ -1,5 +1,5 @@
 {
   "port": 5000,
-  "jwtSecret": "nurbolot youtube mern",
+  "gwtSecret": "nurbolot mern",
   "mongoUri": "mongodb+srv://nurbolot:hello12345@cluster0.gw9yk.mongodb.net/app?retryWrites=true&w=majority"
 }
