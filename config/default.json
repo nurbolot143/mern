@@ -1,5 +1,6 @@
 {
   "port": 5000,
-  "gwtSecret": "nurbolot mern",
-  "mongoUri": "mongodb+srv://nurbolot:hello12345@cluster0.gw9yk.mongodb.net/app?retryWrites=true&w=majority"
+  "jwtSecret": "nurbolot mern",
+  "mongoUri": "mongodb+srv://nurbolot:hello12345@cluster0.gw9yk.mongodb.net/app?retryWrites=true&w=majority",
+  "baseUrl": "http://localhost:5000"
 }

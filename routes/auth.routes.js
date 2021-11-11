@@ -80,7 +80,7 @@ router.post(
           .json({ message: "Неверный пароль, попробуйте снова" });
       }
 
-      const token = jwt.sign({ userId: user.id }, config.get("gwtSecret"), {
+      const token = jwt.sign({ userId: user.id }, config.get("jwtSecret"), {
         expiresIn: "1h",
       });
 
